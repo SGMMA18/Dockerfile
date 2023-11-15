@@ -12,6 +12,6 @@ RUN echo 'root:root' | chpasswd
 EXPOSE 4200
 
 # Start shellinabox
-CMD ["/usr/bin/shellinaboxd", "-t", "-s", "/:LOGIN" "root" "root"]
+CMD ["/usr/bin/shellinaboxd", "-t", "-s", "/:LOGIN"]
 
 
